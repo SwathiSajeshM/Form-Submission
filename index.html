@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>validation of Form</title>
+
+                    <!-------------------------- css file linked --------------------->
+
+            <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+
+    <div class="container">
+
+        <form id="form" class="form">
+
+            <h2>REGESTRATION FORM</h2>
+
+            <!---------------------------- name field ---------------------->
+               
+                <div class="form-control">
+
+                    <label for="username">Name</label>
+                    <input type="text" id="username" placeholder="Enter your username" autocomplete="off"/>
+                    <small>Error message will be displayed here</small>
+
+                </div>
+
+            <!-------------------------- email field ----------------------->
+
+            <div class="form-control">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email" autocomplete="off"/>
+                <small>Error message will be displayed here</small>
+
+            </div>
+
+            <!-------------------------- password field --------------------->
+
+            <div class="form-control">
+
+                <label for="password">Password</label>
+                <input type="password" id="Password" placeholder="Enter your Password" autocomplete="off"/>
+                <small>Error message will be displayed here</small>
+
+            </div>
+
+            
+            <!----------------------- confirm password field ---------------->
+
+            <div class="form-control">
+
+                <label for="cpassword" success >Confirm Password</label>
+                <input type="password" id="cpassword" placeholder="Re-enter password" autocomplete="off"/>
+                <small>Error message will be displayed here</small>
+
+            </div>
+
+            <!--------------------------  phone field ----------------------->
+
+             <div class="form-control">
+
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" placeholder="Enter your phone number" autocomplete="off"/>
+                <small>Error message will be displayed here</small>
+
+            </div>
+
+            <!--------------------------  DOB field -------------------------->
+
+            <div class="form-control">
+
+                <label for="DOB">DOB</label>
+                <input type="date" id="DOB" placeholder="Enter your date of birth" autocomplete="off"/>
+                <small>Error message will be displayed here</small>
+
+            </div>    
+
+                <!--------------------------  Submit button -------------------------->
+
+                <button type="submit"  id="submitid">Submit</button>
+                <!-- <input type="submit" value="submit"> -->
+            
+
+        </form>
+        
+    </div>
+
+
+    <!-------------------------- script file linked ------------------------->
+    
+        <script src="script.js"></script>
+
+  </body>
+
+
+</html>
